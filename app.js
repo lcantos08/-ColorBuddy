@@ -21,8 +21,8 @@ app.set("view engine", "jade");
 
 alexaApp.launch(function(request, response) {
     response.say(''.concat(
-        "Welcome to Color Buddy.",
-        "Ask me for a hex value by saying, What is Blue or What is Hex for Blue?"
+        "Welcome to Body Tech Lemery.",
+        "Ask me for the daily sales today by say, How much is the sales today?"
     ));
     response.card("Color Buddy", "Ask me about a color. For example: What is Blue or What is Hex for Blue?");
 });
